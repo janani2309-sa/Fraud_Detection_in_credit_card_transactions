@@ -2,7 +2,8 @@
 
 ## These are predictive models that have been used
 ### RandomForrestClassifier
-We will use as validation criterion GINI, which formula is GINI = 2 * (AUC) - 1, where AUC is the Receiver Operating Characteristic - Area Under Curve (ROC-AUC) [4]. Number of estimators is set to 100 and number of parallel jobs is set to 4.
+We will use as validation criterion GINI, which formula is GINI = 2 * (AUC) - 1, where AUC is the Receiver Operating Characteristic - Area Under Curve (ROC-AUC). 
+Number of estimators is set to 100 and number of parallel jobs is set to 4.
 The ROC-AUC score obtained with RandomForrestClassifier is 0.85.
 
 ### AdaBoostClassifier
